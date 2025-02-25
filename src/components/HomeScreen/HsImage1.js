@@ -55,7 +55,7 @@ export default () => (
                       {prop.node.acf.title2}
                     </Card.Text>
                     <Link
-                      to={"/" + prop.node.acf.link.replace("http://", "")}
+                      to={prop.node.acf.link}
                       className="nav-link p-0 font-18 font-regular"
                     >
                       Learn more
